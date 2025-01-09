@@ -24,6 +24,20 @@ Trata-se de um sistema de reserva de mesas em restaurantes, desenvolvido em **Py
   - Quantidade de pessoas.
 
 ---
+## Como Executar o Projeto
+
+Siga as instruções abaixo para rodar o projeto localmente:
+
+Instale as dependências (requer o Python e o pip):
+pip install -r requirements.txt
+
+Realize as migrações do banco de dados:
+python manage.py migrate
+
+Inicie o servidor de desenvolvimento:
+Execute o comando abaixo no CMD (Command Prompt):
+python manage.py runserver
+
 
 ## Quer deixar um feedback? Entre em contato:
 
